@@ -3,7 +3,7 @@ from PIL import Image
 
 
 class QRCode:
-    """constructor to initialize the QRCode object"""
+    """constructor to initialize the QRCode object """
     def __init__(
         self,
         data, 
@@ -18,7 +18,7 @@ class QRCode:
         self.qr_size = qr_size
         self.logo_size = logo_size
         
-    """qr code generater with logo"""
+    """qr code generater with logo """
     def generate_qr_with_logo(self):
         qr = qrcode.QRCode(
             version=15,  # Increased version for higher quality
